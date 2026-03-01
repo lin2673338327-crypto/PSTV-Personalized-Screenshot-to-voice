@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Long Screenshot</string>
+    <string name="accessibility_service_description">用于长截图的无障碍服务，需要此权限以实现自动滚动功能</string>
+    <!-- 其他字符串资源 -->
+</resources>

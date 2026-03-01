@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:elevation="8dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择截图方式"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnNormalScreenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通长截图" 
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnIntelligentScreenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="智能长截图" 
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消" />
+
+</LinearLayout>
